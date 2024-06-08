@@ -46,7 +46,7 @@ const projects = [
 
 const Cards: React.FC = () => {
   return (
-    <Container className={style.container} data-aos="zoom-in" data-aos-duration="1800" data-aos-delay="900"> 
+    <Container className={style.container} data-aos="zoom-in" data-aos-duration="1800" data-aos-delay="800"> 
          <h1 className={style.titleText}>Projetos</h1>
       <Row>
         {projects.map((project, index) => (
