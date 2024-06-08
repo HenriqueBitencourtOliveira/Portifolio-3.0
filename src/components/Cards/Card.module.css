@@ -20,10 +20,5 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    margin: 3rem;
-  }
-
-  .container{
-
-    margin-top: 6rem;
+    margin-bottom: 3rem;
   }

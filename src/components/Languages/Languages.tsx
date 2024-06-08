@@ -36,7 +36,7 @@ const Languages: React.FC = () => {
   }, []);
 
   return (
-    <div className={style.HardSkills}>
+    <div className={style.HardSkills} data-aos="zoom-in" data-aos-duration="1500">
       <h1 className={style.titleText}>Hard Skills</h1>
       <div className='d-flex justify-content-around flex-wrap mt-5'>
         {languages.map((language, index) => (

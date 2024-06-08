@@ -21,27 +21,30 @@ const Home: NextPage = () => {
       </Head>
 
       <Header />
-      
+
       <main>
         <Container className="py-5 text-center">
-          <TextTop />
-          <Image
-            style={{ borderRadius: "50%", objectFit: "cover" }}
-            src={"/teste2.jpeg"}
-            alt=""
-            width={250}
-            height={250}
-            className="mb-5"
-          />
-          <Buttons />
+          <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+            <TextTop />
+            <Image
+              style={{ borderRadius: "50%", objectFit: "cover" }}
+              src={"/teste2.jpeg"}
+              alt=""
+              width={250}
+              height={250}
+              className="mb-5"
+            />
+            <Buttons />
+          </div>
 
-          <Languages/>
+          <Languages />
 
-          <Cards/>
-
+          <div >
+            <Cards />
+          </div>
         </Container>
       </main>
-          <Footer/>
+      <Footer />
     </>
   );
 };

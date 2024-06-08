@@ -6,7 +6,7 @@ import { Container, Nav, Navbar } from "reactstrap";
 const TextTop = () => {
   return (
     <>
-      <Container className={style.TextTop}>
+      <Container className={style.TextTop} >
         <h1>Fique à vontade para conhecer</h1>
 
         <h1 className={style.TextColor}>meu portfolio!</h1>
