@@ -27,7 +27,7 @@ const projects = [
       title: 'E-commerce NEXT.JS',
       description: 'Projeto de um site de comércio eletrônico, construído com Next.js para praticar SSR e SSG, oferecendo uma experiência de compra rápida e eficiente.',
       imageUrl: '/nextjs-ecomerce.png',
-      link: 'https://black-nextjs-azure.vercel.app/.com'
+      link: 'https://black-nextjs-azure.vercel.app/'
     },
     {
       title: 'Pokedex',
