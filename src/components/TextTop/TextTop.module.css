@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.TextTop {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.TextColor{
+     font-weight: bold; /* Opcional: adicionar peso à fonte */
+    background: linear-gradient(to right top, #1f57aa, #7b59a8, #ad5f9d, #ce6c90, #e18284, #eb8b7c, #f19674, #f3a36c, #f8a25b, #fca148, #fea231, #fea307);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.paragraph{
+    font-size: 1.1rem;
+    width: 800px;
+  
+    color: #a7a7a7;
+    font-family: "Roboto", sans-serif;
+}
+
+@media (max-width:768px) {
+    .paragraph{
+        width: 300px;
+        padding: 2rem;
+    }
+}

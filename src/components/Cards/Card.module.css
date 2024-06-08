@@ -1,0 +1,29 @@
+/* components/Cards/Card.module.css */
+.card {
+    background-color: #2A2A2A;
+    color: #FFFFFF; /* Ajuste a cor do texto para ser visível sobre o fundo escuro */
+    margin: 1rem;
+    border-radius: 20px;
+  }
+  
+  .cardTitle {
+    color: #FFFFFF; /* Opcional: ajusta a cor do título do card */
+  }
+  
+  .cardText {
+    color: #FFFFFF; /* Opcional: ajusta a cor do texto do card */
+  }
+  
+  .titleText{
+    font-weight: bold; 
+    background: linear-gradient(to bottom, #ff8660, #ff8660, #ff8660, #ff8660, #ff8660, #fc815a, #f87c55, #f5774f, #ed6c43, #e56037, #dd552a, #d5491d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 3rem;
+  }
+
+  .container{
+
+    margin-top: 6rem;
+  }
