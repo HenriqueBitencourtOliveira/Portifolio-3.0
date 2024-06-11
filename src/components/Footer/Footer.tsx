@@ -5,7 +5,7 @@ import { Container } from "reactstrap";
 const Footer = () => {
   return (
     <>
-      <Container fluid style={{ background: "#222222", color:"#a7a7a7", paddingTop: "2rem", paddingBottom: "2rem"}}>
+      <Container fluid style={{ background: "#222222", color:"#a7a7a7", paddingTop: "2rem", paddingBottom: "2rem"}} id="contato">
         <Container>
           <h1>Contato</h1>
 

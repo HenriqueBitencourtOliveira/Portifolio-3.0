@@ -6,9 +6,11 @@ import { Nav, Navbar } from "reactstrap";
 const ButtonWhite = () => {
   return (
     <>
-    <button className={style.buttonWhite}>
-        Contatar
+    <button className={style.buttonWhite} >
+        <a href="https://www.linkedin.com/in/henrique-bitencourt-oliveira-065b94207/" target="_blank" rel="noopener noreferrer">Contatar</a>
     </button>
+
+
     </>
   );
 };

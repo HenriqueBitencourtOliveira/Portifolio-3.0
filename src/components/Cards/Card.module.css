@@ -5,6 +5,11 @@
     margin: 1rem;
     border-radius: 20px;
   }
+  .buttons{
+   display: flex;
+   gap: 2rem;
+   justify-content: center;
+  }
   
   .cardTitle {
     color: #FFFFFF; /* Opcional: ajusta a cor do título do card */

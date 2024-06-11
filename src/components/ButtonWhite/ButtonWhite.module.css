@@ -16,6 +16,12 @@
     &:hover{
         transform: scale(1.04);
     }
+    
+}
+
+.buttonWhite a{
+    text-decoration: none;
+    color: black;
 }
 
 .buttonWhite::before {

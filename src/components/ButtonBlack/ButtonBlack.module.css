@@ -19,6 +19,11 @@
     }
 }
 
+.buttonBlack a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
 .buttonBlack::before {
     content: '';
     position: absolute;

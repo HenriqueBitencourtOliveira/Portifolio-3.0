@@ -24,7 +24,7 @@ const Home: NextPage = () => {
 
       <main>
         <Container className="py-5 text-center">
-          <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+          <div id="inicio" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
             <TextTop />
             <Image
               style={{ borderRadius: "50%", objectFit: "cover" }}
@@ -39,7 +39,7 @@ const Home: NextPage = () => {
 
           <Languages />
 
-          <div >
+          <div id="projetos">
             <Cards />
           </div>
         </Container>
