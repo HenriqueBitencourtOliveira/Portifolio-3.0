@@ -28,7 +28,7 @@ const Home: NextPage = () => {
             <TextTop />
             <Image
               style={{ borderRadius: "50%", objectFit: "cover" }}
-              src={"/teste2.jpeg"}
+              src={"/avatar.jpeg"}
               alt=""
               width={250}
               height={250}
