@@ -5,9 +5,6 @@
     margin: 1rem;
     border-radius: 20px;
   }
-  .cardBody{
-    height: 226px;
-  }
   .buttons{
    display: flex;
    gap: 2rem;

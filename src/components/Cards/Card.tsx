@@ -15,7 +15,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, imageUrl,
   return (
     <Card className={styles.card} >
       <CardImg top width="100%" height="190px" style={{objectFit:"fill", borderRadius:"20px 20px 0px 0px" }} src={imageUrl} alt={title} />
-      <CardBody className={styles.cardBody}>
+      <CardBody>
         <CardTitle tag="h5" className={styles.cardTitle}>{title}</CardTitle>
         <CardText>{description}</CardText>
         <div className={styles.buttons}>
