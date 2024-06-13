@@ -27,7 +27,7 @@ const Home: NextPage = () => {
           <div id="inicio" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
             <TextTop />
             <Image
-              style={{ borderRadius: "50%", objectFit: "cover" }}
+              style={{ borderRadius: "50%"}}
               src={"/avatar.jpeg"}
               alt=""
               width={250}
